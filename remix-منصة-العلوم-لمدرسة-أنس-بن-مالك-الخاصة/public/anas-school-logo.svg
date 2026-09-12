@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 640" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Warm Gold and Fresh Teal Palette matching Anas Bin Malik Private School logo -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900&amp;family=Tajawal:wght@700;800;900&amp;display=swap');
+      .logo-gold { fill: #F5A623; }
+      .logo-teal { fill: #3BA3B8; }
+      .logo-stroke-gold { stroke: #F5A623; }
+      .logo-stroke-teal { stroke: #3BA3B8; }
+      .text-established { font-family: 'Cairo', 'Tajawal', sans-serif; font-weight: 800; font-size: 26px; fill: #F5A623; text-anchor: middle; }
+      .text-year { font-family: 'Cairo', 'Tajawal', sans-serif; font-weight: 900; font-size: 40px; fill: #3BA3B8; text-anchor: middle; letter-spacing: 2px; }
+      .text-school { font-family: 'Cairo', 'Tajawal', sans-serif; font-weight: 800; font-size: 38px; fill: #3BA3B8; text-anchor: middle; }
+      .text-anas { font-family: 'Cairo', 'Tajawal', sans-serif; font-weight: 900; font-size: 64px; fill: #F5A623; text-anchor: middle; }
+      .text-private { font-family: 'Cairo', 'Tajawal', sans-serif; font-weight: 800; font-size: 36px; fill: #3BA3B8; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Central Emblem Elements -->
+  <g id="emblem-group">
+    <!-- Sun Arc and Rays -->
+    <!-- Sun Semi-circle Arch -->
+    <path d="M 205 110 A 65 65 0 0 1 335 110" fill="none" stroke="#F5A623" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Sun Rays (5 distinct rays) -->
+    <!-- Top Ray -->
+    <rect x="264" y="6" width="12" height="24" rx="6" fill="#F5A623" />
+    <!-- Top-Right Diagonal Ray -->
+    <rect x="330" y="30" width="12" height="22" rx="6" fill="#F5A623" transform="rotate(45 336 41)" />
+    <!-- Top-Left Diagonal Ray -->
+    <rect x="198" y="30" width="12" height="22" rx="6" fill="#F5A623" transform="rotate(-45 204 41)" />
+    <!-- Right Horizontal Ray -->
+    <rect x="348" y="104" width="24" height="11" rx="5.5" fill="#F5A623" />
+    <!-- Left Horizontal Ray -->
+    <rect x="168" y="104" width="24" height="11" rx="5.5" fill="#F5A623" />
+
+    <!-- Pencil Symbol in Center of Sun -->
+    <!-- Pencil Tip (Triangle) -->
+    <path d="M 270 65 L 257 85 L 283 85 Z" fill="#3BA3B8" />
+    <!-- Pencil Upper Body -->
+    <path d="M 257 87 L 283 87 L 280 115 L 260 115 Z" fill="#F5A623" />
+    <!-- Pencil Base / Collar with Slits -->
+    <path d="M 255 120 C 255 118 257 117 260 117 L 280 117 C 283 117 285 118 285 120 L 285 152 C 285 154 283 156 280 156 L 260 156 C 257 156 255 154 255 152 Z" fill="#3BA3B8" />
+    <line x1="265" y1="122" x2="265" y2="150" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+    <line x1="275" y1="122" x2="275" y2="150" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Open Book (Layered Teal Pages) -->
+    <!-- Left Pages -->
+    <!-- Top page left -->
+    <path d="M 268 180 C 248 162 215 152 188 152 C 185 152 182 153 186 158 C 205 174 235 186 268 198 Z" fill="#3BA3B8" />
+    <!-- Middle page left -->
+    <path d="M 268 192 C 242 178 200 178 160 190 C 158 191 158 193 162 196 C 190 206 230 205 268 214 Z" fill="#3BA3B8" />
+    <!-- Bottom page left -->
+    <path d="M 268 206 C 235 204 195 210 153 232 C 151 233 153 237 158 237 C 192 227 232 218 268 226 Z" fill="#3BA3B8" />
+
+    <!-- Right Pages -->
+    <!-- Top page right -->
+    <path d="M 272 180 C 292 162 325 152 352 152 C 355 152 358 153 354 158 C 335 174 305 186 272 198 Z" fill="#3BA3B8" />
+    <!-- Middle page right -->
+    <path d="M 272 192 C 298 178 340 178 380 190 C 382 191 382 193 378 196 C 350 206 310 205 272 214 Z" fill="#3BA3B8" />
+    <!-- Bottom page right -->
+    <path d="M 272 206 C 305 204 345 210 387 232 C 389 233 387 237 382 237 C 348 227 308 218 272 226 Z" fill="#3BA3B8" />
+
+    <!-- Foundation Text: تأسست عام -->
+    <text x="270" y="278" class="text-established">تـأسـسـت عــام</text>
+
+    <!-- Year: 1990 -->
+    <text x="270" y="328" class="text-year">1990</text>
+
+    <!-- Center Bottom Star (4-pointed diamond star) -->
+    <path d="M 270 348 L 276 366 L 298 372 L 276 378 L 270 396 L 264 378 L 242 372 L 264 366 Z" fill="#F5A623" />
+  </g>
+
+  <!-- Golden Laurel Wreath (Left and Right branches with detailed leaves) -->
+  <g id="laurel-wreath" fill="#F5A623">
+    <!-- RIGHT BRANCH LEAVES -->
+    <!-- Leaf pair 1 (top right) -->
+    <path d="M 382 6 C 395 18 402 36 394 48 C 384 46 374 34 372 20 Z" />
+    <path d="M 408 30 C 424 40 432 58 424 72 C 412 68 404 54 400 38 Z" />
+    <!-- Leaf pair 2 -->
+    <path d="M 416 66 C 434 76 444 96 438 112 C 424 108 414 92 410 76 Z" />
+    <path d="M 438 100 C 458 112 468 132 462 148 C 448 144 438 128 432 110 Z" />
+    <!-- Leaf pair 3 -->
+    <path d="M 444 142 C 466 156 474 178 468 196 C 452 190 442 174 438 154 Z" />
+    <path d="M 458 184 C 478 202 484 226 476 244 C 460 236 452 218 448 198 Z" />
+    <!-- Leaf pair 4 -->
+    <path d="M 456 230 C 474 250 478 274 468 292 C 452 284 446 264 444 244 Z" />
+    <path d="M 452 276 C 468 298 468 324 456 342 C 442 332 438 312 438 290 Z" />
+    <!-- Leaf pair 5 -->
+    <path d="M 436 322 C 450 344 446 370 432 388 C 420 376 418 354 422 334 Z" />
+    <path d="M 416 364 C 426 386 418 412 402 426 C 392 412 392 392 400 374 Z" />
+    <!-- Leaf pair 6 (bottom right) -->
+    <path d="M 388 404 C 396 424 384 446 366 458 C 358 444 362 424 374 408 Z" />
+    <path d="M 354 436 C 358 454 344 472 326 480 C 320 464 326 448 340 436 Z" />
+
+    <!-- LEFT BRANCH LEAVES (Mirrored across x=270) -->
+    <!-- Leaf pair 1 (top left) -->
+    <path d="M 158 6 C 145 18 138 36 146 48 C 156 46 166 34 168 20 Z" />
+    <path d="M 132 30 C 116 40 108 58 116 72 C 128 68 136 54 140 38 Z" />
+    <!-- Leaf pair 2 -->
+    <path d="M 124 66 C 106 76 96 96 102 112 C 116 108 126 92 130 76 Z" />
+    <path d="M 102 100 C 82 112 72 132 78 148 C 92 144 102 128 108 110 Z" />
+    <!-- Leaf pair 3 -->
+    <path d="M 96 142 C 74 156 66 178 72 196 C 88 190 98 174 102 154 Z" />
+    <path d="M 82 184 C 62 202 56 226 64 244 C 80 236 88 218 92 198 Z" />
+    <!-- Leaf pair 4 -->
+    <path d="M 84 230 C 66 250 62 274 72 292 C 88 284 94 264 96 244 Z" />
+    <path d="M 88 276 C 72 298 72 324 84 342 C 98 332 102 312 102 290 Z" />
+    <!-- Leaf pair 5 -->
+    <path d="M 104 322 C 90 344 94 370 108 388 C 120 376 122 354 118 334 Z" />
+    <path d="M 124 364 C 114 386 122 412 138 426 C 148 412 148 392 140 374 Z" />
+    <!-- Leaf pair 6 (bottom left) -->
+    <path d="M 152 404 C 144 424 156 446 174 458 C 182 444 178 424 166 408 Z" />
+    <path d="M 186 436 C 182 454 196 472 214 480 C 220 464 214 448 200 436 Z" />
+  </g>
+
+  <!-- Bottom School Name Arabic Typography -->
+  <g id="typography-group">
+    <!-- Line 1: مدرسة (Teal) -->
+    <text x="270" y="445" class="text-school">مــدرســـة</text>
+
+    <!-- Line 2: أنس بن مالك (Bold Golden Yellow) -->
+    <text x="270" y="525" class="text-anas">أنس بـن مـالـك</text>
+
+    <!-- Line 3: الخاصة (Teal) -->
+    <text x="270" y="595" class="text-private">الـخــاصــــة</text>
+  </g>
+</svg>
